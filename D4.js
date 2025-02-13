@@ -3,7 +3,7 @@
 */
 
 const area = function (n1, n2) {
-  const calc = (n1 * n2) / 2;
+  const calc = n1 * n2;
   console.log(calc);
 };
 area(11, 12);
@@ -107,5 +107,10 @@ console.log(cutString("DINO"));
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
+const giveMeRandom = function (n) {
+  const rdm = [];
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+  rdm.push(Math.ceil(Math.random()) * n);
+  return rdm;
+};
+console.log(giveMeRandom(10));
