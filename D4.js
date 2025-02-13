@@ -79,20 +79,30 @@ console.log(check3and7(12));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const reverseString = function () {};
+const reverseString = function (name) {
+  const stringa = name;
+  return stringa;
+};
+console.log(reverseString("EPICODE"));
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
 */
+const upperFirst = function () {
+  const str = "finalmete sono a casa";
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+  return str;
+};
+console.log(upperFirst());
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
  della stringa originale.
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+const cutString = function (name) {
+  const cutcut = name.slice(1, -1);
+  return cutcut;
+};
+console.log(cutString("DINO"));
 
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
